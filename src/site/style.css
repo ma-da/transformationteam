@@ -1,0 +1,1376 @@
+/* ========================================================================== 
+   Transformation Team — global stylesheet
+   Single-file, mobile-first, dependency-free presentation.
+   ========================================================================== */
+
+/* ========================================================================== 
+   1. Design tokens
+   ========================================================================== */
+
+:root {
+  --night: #090d22;
+  --night-deep: #050816;
+  --purple: #9852c7;
+  --purple-dark: #6e34a0;
+  --lavender: #ded6ff;
+  --tan: #e5d8c3;
+  --paper: #f6f2fb;
+  --ink: #17141f;
+  --muted: #4e4859;
+  --gray-marker: #8c8991;
+
+  --gutter: clamp(1rem, 4vw, 2.5rem);
+  --page-width: 78rem;
+  --reading-width: 48rem;
+
+  --radius-panel: 1.25rem;
+  --radius-control: 0.125rem;
+
+  --shadow-panel: 0 0.75rem 3rem rgba(0, 0, 0, 0.12);
+  --shadow-menu: 0 1.25rem 4rem rgba(0, 0, 0, 0.34);
+  --shadow-modal: 0 2rem 7rem rgba(0, 0, 0, 0.55);
+
+  --panel-light:
+    radial-gradient(circle at 50% 0%, rgba(222, 214, 255, 0.42), transparent 36%),
+    linear-gradient(
+      90deg,
+      rgba(248, 245, 252, 0) 0%,
+      rgba(248, 245, 252, 0.95) 7%,
+      rgba(248, 245, 252, 0.95) 93%,
+      rgba(248, 245, 252, 0) 100%
+    );
+
+  --panel-dark:
+    radial-gradient(circle at 50% 0%, rgba(117, 85, 184, 0.46), transparent 44%),
+    linear-gradient(
+      90deg,
+      rgba(9, 13, 34, 0.96) 0%,
+      rgba(15, 20, 46, 0.98) 10%,
+      rgba(15, 20, 46, 0.98) 90%,
+      rgba(9, 13, 34, 0.96) 100%
+    );
+}
+
+
+/* ========================================================================== 
+   2. Font and document defaults
+   ========================================================================== */
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("/assets/fonts/SpaceGrotesk.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* ============================================================
+   COSMIC BACKGROUND
+   Scrolls until its bottom reaches the viewport bottom
+   ============================================================ */
+
+html {
+  background: #050816;
+}
+
+body {
+  position: relative;
+  isolation: isolate;
+
+  min-height: 100vh;
+  margin: 0;
+
+  color: var(--ink);
+  background: transparent;
+
+  font-family:
+    "Space Grotesk",
+    system-ui,
+    sans-serif;
+}
+
+
+/* Fixed viewport containing the background image */
+
+.cosmic-backdrop {
+  position: fixed;
+  inset: 0;
+
+  z-index: -1;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  overflow: hidden;
+
+  background: #050816;
+
+  pointer-events: none;
+}
+
+
+/*
+ * The image moves inside the fixed viewport.
+ *
+ * On desktop, it fills the browser width.
+ * On mobile, its minimum width prevents the very tall
+ * photograph from shrinking into a short image.
+ */
+
+.cosmic-backdrop img {
+  display: block;
+
+  flex: 0 0 auto;
+
+  width: max(100%, 68rem);
+  max-width: none;
+  height: auto;
+
+  transform:
+    translate3d(0, var(--cosmic-y, 0px), 0);
+
+  will-change: transform;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  color: inherit;
+}
+
+a {
+  color: var(--purple-dark);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #4d1f78;
+}
+
+img,
+video,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+:focus-visible {
+  outline: 3px solid #ffd76a;
+  outline-offset: 3px;
+}
+
+
+/* ========================================================================== 
+   3. Global layout helpers
+   ========================================================================== */
+
+.page-width {
+  width: min(calc(100% - 2 * var(--gutter)), var(--page-width));
+  margin-inline: auto;
+}
+
+.reading-width {
+  width: min(calc(100% - 2 * var(--gutter)), var(--reading-width));
+  margin-inline: auto;
+}
+
+.section {
+  padding-block: clamp(1.5rem, 4vw, 2.8rem);
+		padding-top: 0;
+}
+
+.skip-link {
+  position: fixed;
+  top: -4rem;
+  left: 1rem;
+  z-index: 100;
+  padding: 0.6rem 0.85rem;
+  color: #111;
+  background: #fff;
+}
+
+.skip-link:focus {
+  top: 0.8rem;
+}
+
+.eyebrow {
+  margin: 0 0 0.75rem;
+  color: var(--tan);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.eyebrow--dark {
+  color: var(--purple-dark);
+}
+
+.section-title {
+  margin: 0 0 1.5rem;
+  font-size: clamp(2rem, 4vw, 3.6rem);
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  text-wrap: balance;
+}
+
+.section-title--light {
+  color: #fff;
+}
+
+
+/* ========================================================================== 
+   4. Header and navigation
+   ========================================================================== */
+
+/* ============================================================
+   SMART SCROLL HEADER
+   ============================================================ */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+
+  width: 100%;
+
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+
+  transform: translateY(0);
+
+  transition:
+    transform 220ms ease,
+    background-color 220ms ease,
+    backdrop-filter 220ms ease;
+
+  will-change: transform;
+}
+
+
+/* Hide when scrolling down */
+
+.site-header--hidden {
+  transform: translateY(-110%);
+}
+
+
+/*
+ * Once we're away from the very top, give the header a very
+ * subtle background when it reappears over page content.
+ */
+
+.site-header--scrolled:not(.site-header--hidden) {
+  background: rgba(5, 8, 22, 0.58);
+
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.site-header__inner {
+  width: min(calc(100% - 2 * var(--gutter)), var(--page-width));
+  min-height: 4.25rem;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.site-nav {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: clamp(1.4rem, 2.4vw, 2.35rem);
+}
+
+/* Welcome, dropdown trigger, and ordinary links deliberately share one style. */
+.site-welcome,
+.site-brand,
+.site-home-link,
+.site-nav > a,
+.course-menu summary {
+  margin: 0;
+  padding: 0.5rem 0;
+  border: 0;
+  color: #f1eafa;
+  background: transparent;
+  font: inherit;
+  font-size: 0.92rem;
+  font-weight: 500;
+  line-height: 1.25;
+  text-decoration: none;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.75);
+  white-space: nowrap;
+}
+
+.site-welcome,
+.course-menu summary {
+  cursor: pointer;
+}
+
+.site-welcome:hover,
+.site-brand:hover,
+.site-nav > a:hover,
+.site-nav > a[aria-current="page"],
+.course-menu[open] summary,
+.course-menu summary:hover {
+  color: var(--tan);
+}
+
+.course-menu {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.course-menu summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  list-style: none;
+}
+
+.course-menu summary::-webkit-details-marker {
+  display: none;
+}
+
+.course-menu summary::marker {
+  content: "";
+}
+
+.course-menu summary svg {
+  width: 0.65rem;
+  height: 0.45rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: transform 160ms ease;
+}
+
+.course-menu[open] summary svg {
+  transform: rotate(180deg);
+}
+
+.course-menu__panel {
+  position: absolute;
+  top: calc(100% + 0.65rem);
+  right: 0;
+  width: min(44rem, calc(100vw - 2rem));
+  max-height: min(38rem, 75vh);
+  overflow-y: auto;
+  padding: 1rem;
+  color: var(--ink);
+  background: rgba(248, 245, 252, 0.98);
+  border-radius: 0.5rem;
+  box-shadow: var(--shadow-menu);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.course-menu__intro {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.course-menu__label {
+  grid-column: 1 / -1;
+  margin-bottom: 0.2rem;
+  color: #77727e;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.course-menu__intro a {
+  padding: 0.7rem 0.75rem;
+  color: var(--ink);
+  background: rgba(224, 215, 242, 0.48);
+  font-size: 0.86rem;
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.course-menu__intro a:hover {
+  color: var(--purple-dark);
+  background: rgba(215, 200, 238, 0.72);
+}
+
+.course-menu__lessons {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.1rem 1rem;
+}
+
+.course-menu__lessons a {
+  display: grid;
+  grid-template-columns: 2rem minmax(0, 1fr);
+  gap: 0.45rem;
+  padding: 0.48rem 0.25rem;
+  color: var(--ink);
+  font-size: 0.78rem;
+  line-height: 1.3;
+  text-decoration: none;
+}
+
+.course-menu__lessons a:hover {
+  color: var(--purple-dark);
+}
+
+.course-menu__lessons strong {
+  color: #929099;
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
+}
+
+
+/* ========================================================================== 
+   5. Hero
+   ========================================================================== */
+
+.hero {
+  position: relative;
+  padding: clamp(0.65rem, 2vw, 1.5rem) 0 clamp(1.75rem, 4vw, 3rem);
+  color: #fff;
+  background: transparent;
+}
+
+.hero__inner {
+  position: relative;
+}
+
+.hero__media {
+  position: relative;
+  width: 100%;
+  max-width: 87.5rem;
+  margin-inline: auto;
+  overflow: visible;
+}
+
+.hero__eye {
+  width: 60%;
+  height: auto;
+  margin-inline: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 0 2rem rgba(90, 115, 220, 0.14));
+}
+
+.hero__copy {
+  position: relative;
+  z-index: 5;
+  max-width: 55rem;
+  margin: clamp(-2.5rem, -4vw, -3.25rem) auto 0;
+  padding: clamp(1.35rem, 3vw, 2rem) clamp(1.1rem, 3vw, 2rem) 0;
+  text-align: center;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: clamp(2.35rem, 5vw, 5.1rem);
+  line-height: 1.03;
+  letter-spacing: -0.04em;
+  text-wrap: balance;
+}
+
+.hero__lead {
+  max-width: 42rem;
+  margin: 1.1rem auto 0;
+  color: #e6def4;
+  font-size: clamp(1.05rem, 1.65vw, 1.28rem);
+}
+
+
+/* ========================================================================== 
+   6. Shared content panels
+   ========================================================================== */
+
+.section-shell {
+  position: relative;
+  overflow: hidden;
+  padding: clamp(1.35rem, 3vw, 2.2rem);
+  border: 0;
+  border-radius: var(--radius-panel);
+  box-shadow: var(--shadow-panel);
+}
+
+.section-shell::before {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  content: "";
+}
+
+.section-shell--light {
+  background: var(--panel-light);
+}
+
+.section-shell--light::before {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.22),
+    rgba(255, 255, 255, 0) 20%,
+    rgba(255, 255, 255, 0) 82%,
+    rgba(216, 207, 236, 0.15)
+  );
+}
+
+.section-shell--dark {
+  color: #fff;
+  background: var(--panel-dark);
+}
+
+.section-shell--dark::before {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.06),
+    rgba(255, 255, 255, 0) 28%,
+    rgba(255, 255, 255, 0.04)
+  );
+}
+
+.section-shell--centered {
+  text-align: center;
+}
+
+
+/* ========================================================================== 
+   7. Introductory questions
+   ========================================================================== */
+
+.questions {
+  margin-top: 0.5rem;
+}
+
+.question {
+  display: grid;
+  grid-template-columns: 2.4rem minmax(0, 1fr);
+  gap: 0.75rem;
+  padding: 1rem 0;
+}
+
+.question__marker {
+  width: 1rem;
+  height: 1rem;
+  margin-top: 0.38rem;
+  justify-self: center;
+
+  border-radius: 50%;
+  background: #929099;
+
+  transition:
+    background-color 180ms ease,
+    transform 180ms ease;
+}
+
+/* Highlight marker when interacting anywhere in the question */
+.question:hover .question__marker,
+.question:focus-within .question__marker {
+  background: var(--purple);
+  transform: scale(1.08);
+}
+
+.question p {
+  margin: 0;
+  font-size: clamp(1.05rem, 1.25vw, 1.25rem);
+}
+
+
+/* ========================================================================== 
+   8. Question-section actions
+   ========================================================================== */
+
+.invitation-actions {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.65rem;
+  margin-top: 2rem;
+}
+
+/* ============================================================
+   QUESTION ACTIONS
+   ============================================================ */
+
+.invitation-actions {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+
+  gap: 0.75rem;
+
+  margin-top: 2rem;
+}
+
+
+.journey-button {
+  min-height: 2.9rem;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0.7rem 1.25rem;
+
+  border: 0;
+  border-radius: 0;
+
+  color: #3f3947;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(224, 217, 232, 0) 0%,
+      rgba(224, 217, 232, 0.58) 12%,
+      rgba(224, 217, 232, 0.72) 50%,
+      rgba(224, 217, 232, 0.58) 88%,
+      rgba(224, 217, 232, 0) 100%
+    );
+
+  font: inherit;
+  font-size: 0.86rem;
+  font-weight: 650;
+
+  text-align: center;
+  text-decoration: none;
+
+  cursor: pointer;
+
+  transition:
+    color 160ms ease,
+    transform 160ms ease;
+}
+
+
+.journey-button:hover,
+.journey-button:focus-visible {
+  color: var(--purple-dark);
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(211, 197, 226, 0) 0%,
+      rgba(211, 197, 226, 0.68) 12%,
+      rgba(211, 197, 226, 0.9) 50%,
+      rgba(211, 197, 226, 0.68) 88%,
+      rgba(211, 197, 226, 0) 100%
+    );
+
+  transform: translateY(-1px);
+}
+
+
+/* Slight emphasis without turning it into a large CTA */
+
+.journey-button--primary {
+  color: var(--purple-dark);
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(203, 181, 224, 0) 0%,
+      rgba(203, 181, 224, 0.64) 12%,
+      rgba(203, 181, 224, 0.88) 50%,
+      rgba(203, 181, 224, 0.64) 88%,
+      rgba(203, 181, 224, 0) 100%
+    );
+}
+
+
+.journey-button--primary:hover,
+.journey-button--primary:focus-visible {
+  color: #56247f;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(190, 159, 217, 0) 0%,
+      rgba(190, 159, 217, 0.72) 12%,
+      rgba(190, 159, 217, 0.96) 50%,
+      rgba(190, 159, 217, 0.72) 88%,
+      rgba(190, 159, 217, 0) 100%
+    );
+}
+
+/* ============================================================
+   LONG-FORM CONTENT
+   ============================================================ */
+
+.content-page {
+  padding-top: clamp(1rem, 3vw, 2.5rem);
+  padding-bottom: clamp(3rem, 8vw, 6rem);
+}
+
+
+.prose {
+  line-height: 1.75;
+}
+
+
+.prose > *:first-child {
+  margin-top: 0;
+}
+
+
+.prose h1 {
+  margin:
+    0 0 1.75rem;
+
+  font-size:
+    clamp(2.3rem, 5vw, 4.25rem);
+
+  line-height: 1.04;
+  letter-spacing: -0.045em;
+
+  text-wrap: balance;
+}
+
+
+.prose h2 {
+  margin:
+    2.75rem 0 1rem;
+
+  font-size:
+    clamp(1.55rem, 3vw, 2.25rem);
+
+  line-height: 1.15;
+}
+
+
+.prose h3 {
+  margin:
+    2rem 0 0.75rem;
+
+  font-size: 1.3rem;
+}
+
+
+.prose p,
+.prose li {
+  font-size:
+    clamp(1rem, 1.15vw, 1.12rem);
+}
+
+
+.prose p {
+  margin:
+    0 0 1.25rem;
+}
+
+
+.prose blockquote {
+  margin:
+    2rem 0;
+
+  padding:
+    0.75rem 1.5rem;
+
+  color: var(--muted);
+
+  font-family: Georgia, serif;
+  font-size: 1.08rem;
+  font-style: italic;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(222, 214, 255, 0.5),
+      rgba(222, 214, 255, 0)
+    );
+}
+
+
+.prose img {
+  max-width: 100%;
+  height: auto;
+
+  margin:
+    2rem auto;
+}
+
+
+.prose a {
+  font-weight: 600;
+}
+
+
+/* ============================================================
+   WELCOME MODAL
+   ============================================================ */
+
+.welcome-dialog {
+  width: min(calc(100% - 2rem), 48rem);
+
+  padding: 0;
+  margin: auto;
+
+  border: 0;
+  border-radius: 0;
+
+  color: #fff;
+
+  background: transparent;
+
+  box-shadow: none;
+
+  overflow: visible;
+}
+
+
+/*
+ * Darkens the page behind the invitation without making
+ * the modal itself look like a conventional popup box.
+ */
+
+.welcome-dialog::backdrop {
+  background:
+    rgba(3, 5, 18, 0.62);
+
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+}
+
+
+/*
+ * The actual invitation surface.
+ *
+ * All four edges fade toward transparency so the panel
+ * visually dissolves into the cosmic background.
+ */
+
+.welcome-dialog__inner {
+  position: relative;
+
+  padding:
+    clamp(3rem, 7vw, 5rem)
+    clamp(2rem, 7vw, 4.5rem);
+
+  color: #f5f1fa;
+
+  text-align: center;
+
+  background:
+
+    /* gentle purple glow */
+    radial-gradient(
+      circle at 50% 28%,
+      rgba(112, 72, 163, 0.46) 0%,
+      rgba(71, 48, 112, 0.26) 35%,
+      rgba(15, 20, 46, 0) 72%
+    ),
+
+    /* horizontal edge fade */
+    linear-gradient(
+      90deg,
+      rgba(9, 13, 34, 0) 0%,
+      rgba(12, 17, 42, 0.82) 12%,
+      rgba(12, 17, 42, 0.94) 30%,
+      rgba(12, 17, 42, 0.94) 70%,
+      rgba(12, 17, 42, 0.82) 88%,
+      rgba(9, 13, 34, 0) 100%
+    );
+
+  /*
+   * No visible scrollbar, while still allowing scrolling
+   * on unusually short screens.
+   */
+  max-height: calc(100dvh - 2rem);
+  overflow-y: auto;
+
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+
+.welcome-dialog__inner::-webkit-scrollbar {
+  display: none;
+}
+
+
+/*
+ * Fade the top and bottom too.
+ */
+
+.welcome-dialog__inner::before {
+  content: "";
+
+  position: absolute;
+  inset: 0;
+
+  z-index: -1;
+
+  pointer-events: none;
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(9, 13, 34, 0) 0%,
+      rgba(9, 13, 34, 0.7) 10%,
+      rgba(9, 13, 34, 0.92) 24%,
+      rgba(9, 13, 34, 0.92) 76%,
+      rgba(9, 13, 34, 0.7) 90%,
+      rgba(9, 13, 34, 0) 100%
+    );
+}
+
+
+/* Close control */
+
+.welcome-dialog__close {
+  position: absolute;
+
+  top: 1.25rem;
+  right: 1.5rem;
+
+  z-index: 5;
+
+  width: 2.25rem;
+  height: 2.25rem;
+
+  display: grid;
+  place-items: center;
+
+  padding: 0;
+
+  border: 0;
+  border-radius: 0;
+
+  color: rgba(240, 233, 248, 0.72);
+  background: transparent;
+
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1;
+
+  cursor: pointer;
+
+  transition:
+    color 160ms ease,
+    transform 160ms ease;
+}
+
+
+.welcome-dialog__close:hover {
+  color: #fff;
+
+  background: transparent;
+
+  transform: scale(1.08);
+}
+
+
+/* Modal typography */
+
+.welcome-dialog .eyebrow {
+  color: var(--tan);
+}
+
+
+.welcome-dialog__title {
+  max-width: 38rem;
+
+  margin:
+    0 auto 1.25rem;
+
+  color: #fff;
+
+  font-size:
+    clamp(2rem, 5vw, 3.4rem);
+
+  line-height: 1.06;
+  letter-spacing: -0.04em;
+
+  text-wrap: balance;
+}
+
+
+.welcome-dialog__lead {
+  margin:
+    0 auto 1.25rem;
+
+  color: var(--lavender);
+
+  font-size: 1.2rem;
+  font-weight: 650;
+}
+
+
+.welcome-dialog__inner > p:not(.eyebrow) {
+  max-width: 39rem;
+
+  margin:
+    0 auto 1rem;
+
+  color:
+    rgba(242, 237, 248, 0.9);
+
+  font-size:
+    clamp(0.98rem, 1.25vw, 1.08rem);
+
+  line-height: 1.72;
+}
+
+
+.welcome-dialog__actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  gap: 0.75rem;
+
+  max-width: 36rem;
+
+  margin:
+    2rem auto 0;
+}
+
+
+/*
+ * Modal action links use the same fading-edge language
+ * as the homepage question actions, but in a dark palette.
+ */
+
+.welcome-dialog .journey-button {
+  min-width: 12rem;
+
+  color: #eee7f7;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(168, 137, 196, 0) 0%,
+      rgba(168, 137, 196, 0.18) 12%,
+      rgba(168, 137, 196, 0.34) 50%,
+      rgba(168, 137, 196, 0.18) 88%,
+      rgba(168, 137, 196, 0) 100%
+    );
+}
+
+
+.welcome-dialog .journey-button:hover {
+  color: #fff;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(183, 145, 216, 0) 0%,
+      rgba(183, 145, 216, 0.28) 12%,
+      rgba(183, 145, 216, 0.48) 50%,
+      rgba(183, 145, 216, 0.28) 88%,
+      rgba(183, 145, 216, 0) 100%
+    );
+}
+
+/* ========================================================================== 
+   10. Footer
+   ========================================================================== */
+
+.site-footer {
+  position: relative;
+  padding: 2.25rem 0 1.4rem;
+  color: #e9e3f3;
+  background: transparent;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.site-footer__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.site-footer__identity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.site-footer__brand {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.site-footer__identity p {
+  margin: 0;
+}
+
+.site-footer__motto {
+  max-width: 34rem;
+  color: var(--tan);
+  font-family: Georgia, serif;
+  font-style: italic;
+}
+
+.site-footer a {
+  color: #eee5ff;
+}
+
+.site-footer a:hover {
+  color: var(--tan);
+}
+
+.footer-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.35rem 1.35rem;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-nav a {
+  color: #f1eafa;
+  font-size: 0.84rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.site-footer__image-credit {
+  max-width: 55rem;
+  margin: 0;
+  padding-top: 0.35rem;
+  color: rgba(225, 215, 245, 0.7);
+  font-size: 0.7rem;
+  line-height: 1.55;
+}
+
+.site-footer__image-credit a {
+  color: var(--tan);
+}
+
+/* ============================================================
+   LESSON NAVIGATION
+   ============================================================ */
+
+.lesson-nav {
+  display: grid;
+  grid-template-columns:
+    1fr auto 1fr;
+
+  align-items: center;
+  gap: 1rem;
+
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+}
+
+.lesson-nav a {
+  text-decoration: none;
+}
+
+.lesson-nav__item {
+  display: flex;
+  flex-direction: column;
+
+  gap: 0.15rem;
+
+  color: var(--muted);
+}
+
+.lesson-nav__item--next {
+  text-align: right;
+}
+
+.lesson-nav__direction {
+  color: #8a8490;
+
+  font-size: 0.72rem;
+  font-weight: 700;
+
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.lesson-nav__item strong {
+  color: var(--purple-dark);
+
+  font-size: 0.92rem;
+  font-weight: 650;
+}
+
+.lesson-nav__index {
+  color: var(--purple-dark);
+
+  font-size: 0.8rem;
+  font-weight: 700;
+
+  text-align: center;
+}
+
+.lesson-nav a:hover,
+.lesson-nav a:hover strong {
+  color: var(--purple);
+}
+
+
+@media (max-width: 600px) {
+
+  .lesson-nav {
+    grid-template-columns:
+      1fr 1fr;
+  }
+
+  .lesson-nav__index {
+    grid-column: 1 / -1;
+    grid-row: 1;
+
+    margin-bottom: 0.5rem;
+  }
+
+}
+
+
+/* ========================================================================== 
+   11. Responsive adjustments
+   ========================================================================== */
+
+@media (max-width: 900px) {
+  .invitation-actions {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 760px) {
+
+  .site-header__inner {
+    min-height: 4rem;
+    padding-block: 0.7rem;
+    flex-wrap: wrap;
+    gap: 0.45rem 1rem;
+  }
+
+  .site-welcome,
+  .site-brand,
+  .site-nav > a,
+  .course-menu summary {
+    font-size: 0.84rem;
+  }
+
+  .site-nav {
+    gap: 0.75rem 1.1rem;
+  }
+
+  .course-menu__panel {
+    position: fixed;
+    top: 4rem;
+    right: 0.75rem;
+    left: 0.75rem;
+    width: auto;
+    max-height: calc(100dvh - 5rem);
+  }
+
+  .course-menu__intro,
+  .course-menu__lessons {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    padding-top: 0.5rem;
+  }
+
+  .hero__eye {
+    width: min(82%, 42rem);
+  }
+
+  .hero__copy {
+    margin-top: -1rem;
+    padding-top: 1rem;
+  }
+
+  .section-shell {
+    padding: 1.2rem;
+  }
+
+  .question {
+    grid-template-columns: 2rem minmax(0, 1fr);
+    gap: 0.6rem;
+  }
+
+  .welcome-dialog__actions {
+    flex-direction: column;
+  }
+
+  .welcome-dialog__actions .journey-button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 520px) {
+  .site-header__inner {
+    align-items: flex-start;
+  }
+
+  .site-nav {
+    width: 100%;
+    justify-content: space-between;
+    gap: 0.55rem;
+  }
+
+  .site-nav > a,
+  .course-menu summary {
+    font-size: 0.78rem;
+  }
+
+  .invitation-actions {
+    grid-template-columns: 1fr;
+  }
+
+  .question {
+    grid-template-columns: 1.6rem minmax(0, 1fr);
+  }
+
+  .question__marker {
+    width: 0.9rem;
+    height: 0.9rem;
+  }
+
+  .site-footer {
+    padding-top: 1.8rem;
+  }
+
+  .footer-nav {
+    gap: 0.45rem 0.9rem;
+  }
+}
+
+
+/* ========================================================================== 
+   12. Reduced motion
+   ========================================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .course-menu summary svg,
+  .journey-button {
+    transition: none;
+  }
+
+  .journey-button:hover {
+    transform: none;
+  }
+}

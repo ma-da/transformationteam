@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
+
+  <meta
+    name="theme-color"
+    content="#090d22"
+  >
+
+  <meta
+    name="description"
+    content="{{ description }}"
+  >
+
+  <title>
+    {{ title }} | Planetary Transformation Team
+  </title>
+
+  <link
+    rel="icon"
+    type="image/x-icon"
+    href="/assets/images/favicon.ico"
+    sizes="any"
+  >
+
+  <link
+    rel="stylesheet"
+    href="/style.css"
+  >
+</head>
+
+
+<body>
+<div class="cosmic-backdrop" aria-hidden="true">
+  <img
+    id="cosmic-background"
+    src="/assets/images/starry-background.webp"
+    alt=""
+    width="2662"
+    height="6144"
+  >
+</div>
+  <a class="skip-link" href="#main">
+    Skip to main content
+  </a>
+
+
+  {% include "header.html" %}
+
+
+  <main id="main" class="content-page">
+
+    <section class="section">
+
+      <article
+        class="
+          reading-width
+          section-shell
+          section-shell--light
+          prose
+        "
+      >
+
+        {% if eyebrow %}
+          <p class="eyebrow eyebrow--dark">
+            {{ eyebrow }}
+          </p>
+        {% endif %}
+
+        {{ content_html | safe }}
+								
+								{% if page_type == "lesson" %}
+
+										<nav
+												class="lesson-nav"
+												aria-label="Lesson navigation"
+										>
+
+												<a
+														class="lesson-nav__item lesson-nav__item--previous"
+														href="{{ previous_url }}"
+												>
+														<span class="lesson-nav__direction">
+																← Previous
+														</span>
+
+														{% if lesson_number == 1 %}
+																<strong>Course Index</strong>
+														{% else %}
+																<strong>
+																		Lesson {{ lesson_number - 1 }}
+																</strong>
+														{% endif %}
+												</a>
+
+
+												<a
+														class="lesson-nav__index"
+														href="/course/index.html"
+												>
+														All 21 Lessons
+												</a>
+
+
+												<a
+														class="lesson-nav__item lesson-nav__item--next"
+														href="{{ next_url }}"
+												>
+														<span class="lesson-nav__direction">
+																Next →
+														</span>
+
+														{% if lesson_number == 21 %}
+																<strong>Course Index</strong>
+														{% else %}
+																<strong>
+																		Lesson {{ lesson_number + 1 }}
+																</strong>
+														{% endif %}
+												</a>
+
+										</nav>
+
+								{% endif %}
+
+      </article>
+
+    </section>
+
+  </main>
+
+
+  {% include "footer.html" %}
+
+
+  <script src="/assets/js/site.js"></script>
+
+</body>
+</html>

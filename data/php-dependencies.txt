@@ -1,0 +1,118 @@
+archive/original-httpdocs/index.php:15:<?php include('m/header.php') ?>
+archive/original-httpdocs/index.php:98:<?php include('m/footer.php') ?>
+archive/original-httpdocs/transformation_fable.php:9:<?php include('m/header.php') ?>
+archive/original-httpdocs/transformation_fable.php:94:<?php include('m/footer.php') ?>
+archive/original-httpdocs/transformationfable.php:9:<?php include('m/header.php') ?>
+archive/original-httpdocs/transformationfable.php:97:<?php include('m/footer.php') ?>
+archive/original-httpdocs/fluidintelligence.php:9:<?php include('m/header.php') ?>
+archive/original-httpdocs/fluidintelligence.php:175:<?php include('m/footer.php') ?>
+archive/original-httpdocs/transformationcourseoverview.php:9:<?php include('m/header.php') ?>
+archive/original-httpdocs/transformationcourseoverview.php:82:<?php include('m/footer.php') ?>
+archive/original-httpdocs/ttcourse/agree.php:8:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/agree.php:55:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/communityvaluesportal.php:8:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/communityvaluesportal.php:39:<?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/dontagree.php:9:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/dontagree.php:19:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/go.php:7:<?php if ($_GET['url']) { ?>
+archive/original-httpdocs/ttcourse/go.php:8:	<meta http-equiv="refresh" content="6;url=<?php echo $_GET['url']; ?>">
+archive/original-httpdocs/ttcourse/go.php:9:<?php } ?>
+archive/original-httpdocs/ttcourse/go.php:58:<?php
+archive/original-httpdocs/ttcourse/go.php:68:<object width="<?php echo $width; ?>" height="<?php echo $height; ?>">
+archive/original-httpdocs/ttcourse/go.php:70:<param name="flashvars" value="<?php echo $flashvars; ?>"</param>
+archive/original-httpdocs/ttcourse/go.php:73:    width="<?php echo $width; ?>" height="<?php echo $height; ?>" 
+archive/original-httpdocs/ttcourse/go.php:74:    flashvars="<?php echo $flashvars;?>"
+archive/original-httpdocs/ttcourse/tc09a.php:18:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/tc09a.php:58:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/tc09b.php:20:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/tc09b.php:108:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/tc10a.php:23:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/tc10a.php:65:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/tc10b.php:20:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/tc10b.php:96:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/tc11a.php:20:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/tc11a.php:58:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/tc11b.php:8:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/tc11b.php:274:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/tc12a.php:17:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/tc12a.php:52:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/tc12b.php:8:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/tc12b.php:83:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/tc13a.php:13:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/tc13a.php:46:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/tc13b.php:15:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/tc13b.php:78:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/trf14a.php:20:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/trf14a.php:55:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/trf14b.php:15:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/trf14b.php:123:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/trf15a.php:25:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/trf15a.php:62:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/trf15b.php:8:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/trf15b.php:79:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/trf16a.php:15:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/trf16a.php:59:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/trf16b.php:15:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/trf16b.php:82:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/trfc17a.php:42:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/trfc17a.php:146:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/trfc17b.php:25:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/trfc17b.php:101:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/trfc18a.php:28:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/trfc18a.php:68:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/trfc18b.php:19:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/trfc18b.php:99:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/trfc19a.php:17:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/trfc19a.php:68:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/trfc19b.php:9:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/trfc19b.php:86:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/trfc20a.php:18:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/trfc20a.php:95:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/trfc20b.php:8:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/trfc20b.php:95:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/trfc21a.php:25:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/trfc21a.php:69:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/trfc21b.php:8:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/trfc21b.php:257:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/trfc21c.php:8:<?php // GC recurring -- affected files/folders: checkout, js, style.css ?>
+archive/original-httpdocs/ttcourse/trfc21c.php:68:<?php // END GC recurring ?>
+archive/original-httpdocs/ttcourse/trfc21c.php:70:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/trfc21c.php:171:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/ttcourse00a.php:8:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/ttcourse00a.php:109:<?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/ttcourse01a.php:18:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/ttcourse01a.php:55:<?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/ttcourse01b.php:7:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/ttcourse01b.php:91:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/ttcourse02a.php:13:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/ttcourse02a.php:55:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/ttcourse02b.php:13:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/ttcourse02b.php:105:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/ttcourse03a.php:13:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/ttcourse03a.php:53:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/ttcourse03b.php:13:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/ttcourse03b.php:103:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/ttlesson04a.php:28:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/ttlesson04a.php:79:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/ttlesson04b.php:13:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/ttlesson04b.php:98:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/ttlesson05a.php:25:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/ttlesson05a.php:61:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/ttlesson05b.php:13:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/ttlesson05b.php:86:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/ttlesson06a.php:18:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/ttlesson06a.php:47:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/ttlesson06b.php:14:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/ttlesson06b.php:92:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/ttlesson07a.php:18:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/ttlesson07a.php:58:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/ttlesson07b.php:20:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/ttlesson07b.php:106:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/ttlesson08a.php:17:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/ttlesson08a.php:67:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/ttlesson08b.php:18:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/ttlesson08b.php:114:  <?php include('../m/footer.php') ?>
+archive/original-httpdocs/ttcourse/ttlessonfinal.php:8:<?php // GC recurring -- affected files/folders: checkout, js, style.css ?>
+archive/original-httpdocs/ttcourse/ttlessonfinal.php:68:<?php // END GC recurring ?>
+archive/original-httpdocs/ttcourse/ttlessonfinal.php:70:<?php include('../m/header.php') ?>
+archive/original-httpdocs/ttcourse/ttlessonfinal.php:191:  <?php include('../m/footer.php') ?>

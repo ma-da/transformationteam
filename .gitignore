@@ -1,0 +1,24 @@
+# Legacy site snapshot - keep locally, not in new repo
+archive/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+
+# Logs
+*.log
