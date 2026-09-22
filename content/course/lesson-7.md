@@ -114,7 +114,7 @@ As people open to their divine essence, they begin to awaken to the infinite pow
 
 Thankfully, there are an ever-increasing number of books, films, poems, and other materials which give guidance not only on how to tap into our inner potential, but also on how to use that potential in very practical ways in our lives. One popular film along these lines is *The Secret*. Before continuing, please watch the first 20 minutes of this empowering video at the link below.
 
-[https://www.personalgrowthcourses.net/video/the\_secret]( https://www.personalgrowthcourses.net/video/the_secret)
+[https://www.personalgrowthcourses.net/video/the\_secret]( /assets/video/course/the_secret.mp4)
 
 *The Secret* reminds us of a powerful principle of manifestation: the law of attraction. What you focus on with thought and feeling is what you tend to attract into your experience. **When our minds hold a crystal clear focus on a thought or intention and our heart resonates with deep passion around this, the probability of the universe creatively responding to this thought or intention is greatly increased.**
 

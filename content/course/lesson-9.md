@@ -79,7 +79,7 @@ For a much more detailed version of this incredible story, [click here](https://
 
 After taking time to absorb the wisdom of the above story, watch the below 18-minute video of an inquisitive scientist who had a most unusual near-death experience. As a neuroanatomist, Jill Bolte Taylor was amazingly able to explore scientifically some of what was happening to her as her brain shut down. Yet her powerful experience also took her far beyond the realms of science.
 
-[**https://www.personalgrowthcourses.net/video/stroke\_jill\_bolte\_taylor**](https://www.personalgrowthcourses.net/video/stroke_jill_bolte_taylor)
+[**https://www.personalgrowthcourses.net/video/stroke\_jill\_bolte\_taylor**](/assets/video/course/stroke_jill_bolte_taylor.mp4)
 
 Remember that there is no rush here. Consider taking a few minutes to pause and meditate on what you just saw. Let the wisdom shared sink into the depths of your soul, so that you might better integrate the powerful messages shared.
 

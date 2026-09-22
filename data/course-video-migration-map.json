@@ -8,8 +8,9 @@
       11
     ],
     "match_type": "exact-stem",
-    "source_path": "/mnt/c/datasources/WTKvideos/MOTHERS_EXTRAORDINARY.mp4",
-    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/mothers_extraordinary.mp4",
+    "source_collection": "WTKvideos",
+    "source_filename": "MOTHERS_EXTRAORDINARY.mp4",
+    "destination_filename": "mothers_extraordinary.mp4",
     "new_url": "/assets/video/course/mothers_extraordinary.mp4",
     "size_bytes": 10395437
   },
@@ -22,8 +23,9 @@
       11
     ],
     "match_type": "exact-stem",
-    "source_path": "/mnt/c/datasources/WTKvideos/POWER_OF_THE_INTERNET.mp4",
-    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/power_of_the_internet.mp4",
+    "source_collection": "WTKvideos",
+    "source_filename": "POWER_OF_THE_INTERNET.mp4",
+    "destination_filename": "power_of_the_internet.mp4",
     "new_url": "/assets/video/course/power_of_the_internet.mp4",
     "size_bytes": 3690871
   },
@@ -36,8 +38,9 @@
       11
     ],
     "match_type": "exact-stem",
-    "source_path": "/mnt/c/datasources/WTKvideos/THE_SECRET.mp4",
-    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/the_secret.mp4",
+    "source_collection": "WTKvideos",
+    "source_filename": "THE_SECRET.mp4",
+    "destination_filename": "the_secret.mp4",
     "new_url": "/assets/video/course/the_secret.mp4",
     "size_bytes": 79677028
   },
@@ -50,8 +53,9 @@
       11
     ],
     "match_type": "exact-stem",
-    "source_path": "/mnt/c/datasources/WTKvideos/STROKE_JILL_BOLTE_TAYLOR.mp4",
-    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/stroke_jill_bolte_taylor.mp4",
+    "source_collection": "WTKvideos",
+    "source_filename": "STROKE_JILL_BOLTE_TAYLOR.mp4",
+    "destination_filename": "stroke_jill_bolte_taylor.mp4",
     "new_url": "/assets/video/course/stroke_jill_bolte_taylor.mp4",
     "size_bytes": 73558524
   },
@@ -63,8 +67,9 @@
       11
     ],
     "match_type": "exact-stem",
-    "source_path": "/mnt/c/datasources/WTKvideos/ELEPHANT_ARTIST.mp4",
-    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/elephant_artist.mp4",
+    "source_collection": "WTKvideos",
+    "source_filename": "ELEPHANT_ARTIST.mp4",
+    "destination_filename": "elephant_artist.mp4",
     "new_url": "/assets/video/course/elephant_artist.mp4",
     "size_bytes": 63869408
   },
@@ -77,8 +82,9 @@
       21
     ],
     "match_type": "normalized-stem",
-    "source_path": "/mnt/c/datasources/WTKvideos/GRATEFULNESS_DAVID_STEINDL-RAST.mp4",
-    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/gratefulness_david_steindl-rast.mp4",
+    "source_collection": "WTKvideos",
+    "source_filename": "GRATEFULNESS_DAVID_STEINDL-RAST.mp4",
+    "destination_filename": "gratefulness_david_steindl-rast.mp4",
     "new_url": "/assets/video/course/gratefulness_david_steindl-rast.mp4",
     "size_bytes": 20710839
   },
@@ -90,8 +96,9 @@
       11
     ],
     "match_type": "exact-stem",
-    "source_path": "/mnt/c/datasources/WTKvideos/PERCEPTUAL_EXPERIMENT.mp4",
-    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/perceptual_experiment.mp4",
+    "source_collection": "WTKvideos",
+    "source_filename": "PERCEPTUAL_EXPERIMENT.mp4",
+    "destination_filename": "perceptual_experiment.mp4",
     "new_url": "/assets/video/course/perceptual_experiment.mp4",
     "size_bytes": 10690472
   },
@@ -104,8 +111,9 @@
       21
     ],
     "match_type": "exact-stem",
-    "source_path": "/mnt/c/datasources/WTKvideos/CHEETAH_ANTELOPE.mp4",
-    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/cheetah_antelope.mp4",
+    "source_collection": "WTKvideos",
+    "source_filename": "CHEETAH_ANTELOPE.mp4",
+    "destination_filename": "cheetah_antelope.mp4",
     "new_url": "/assets/video/course/cheetah_antelope.mp4",
     "size_bytes": 1308336
   },
@@ -118,8 +126,9 @@
       21
     ],
     "match_type": "exact-stem",
-    "source_path": "/mnt/c/datasources/WTKvideos/LIFE_RISK.mp4",
-    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/life_risk.mp4",
+    "source_collection": "WTKvideos",
+    "source_filename": "LIFE_RISK.mp4",
+    "destination_filename": "life_risk.mp4",
     "new_url": "/assets/video/course/life_risk.mp4",
     "size_bytes": 2611855
   },
@@ -132,8 +141,9 @@
       21
     ],
     "match_type": "exact-stem",
-    "source_path": "/mnt/c/datasources/WTKvideos/SOFTBALL_MIRACLE.mp4",
-    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/softball_miracle.mp4",
+    "source_collection": "WTKvideos",
+    "source_filename": "SOFTBALL_MIRACLE.mp4",
+    "destination_filename": "softball_miracle.mp4",
     "new_url": "/assets/video/course/softball_miracle.mp4",
     "size_bytes": 23493263
   },
@@ -146,8 +156,9 @@
       21
     ],
     "match_type": "exact-stem",
-    "source_path": "/mnt/c/datasources/WTKvideos/LION_HUG.mp4",
-    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/lion_hug.mp4",
+    "source_collection": "WTKvideos",
+    "source_filename": "LION_HUG.mp4",
+    "destination_filename": "lion_hug.mp4",
     "new_url": "/assets/video/course/lion_hug.mp4",
     "size_bytes": 2560821
   },
@@ -160,8 +171,9 @@
       21
     ],
     "match_type": "exact-stem",
-    "source_path": "/mnt/c/datasources/WTKvideos/VALIDATION.mp4",
-    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/validation.mp4",
+    "source_collection": "WTKvideos",
+    "source_filename": "VALIDATION.mp4",
+    "destination_filename": "validation.mp4",
     "new_url": "/assets/video/course/validation.mp4",
     "size_bytes": 64197516
   },
@@ -174,8 +186,9 @@
       21
     ],
     "match_type": "exact-stem",
-    "source_path": "/mnt/c/datasources/WTKvideos/EVOLUTION_CREATURE_COMFORTS.mp4",
-    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/evolution_creature_comforts.mp4",
+    "source_collection": "WTKvideos",
+    "source_filename": "EVOLUTION_CREATURE_COMFORTS.mp4",
+    "destination_filename": "evolution_creature_comforts.mp4",
     "new_url": "/assets/video/course/evolution_creature_comforts.mp4",
     "size_bytes": 29271222
   },
@@ -188,8 +201,9 @@
       21
     ],
     "match_type": "exact-stem",
-    "source_path": "/mnt/c/datasources/WTKvideos/INTENTIONAL_CHOCOLATE.mp4",
-    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/intentional_chocolate.mp4",
+    "source_collection": "WTKvideos",
+    "source_filename": "INTENTIONAL_CHOCOLATE.mp4",
+    "destination_filename": "intentional_chocolate.mp4",
     "new_url": "/assets/video/course/intentional_chocolate.mp4",
     "size_bytes": 4485949
   },
@@ -202,8 +216,9 @@
       21
     ],
     "match_type": "exact-stem",
-    "source_path": "/mnt/c/datasources/WTKvideos/LOVE_IS_ENERGY.mp4",
-    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/love_is_energy.mp4",
+    "source_collection": "WTKvideos",
+    "source_filename": "LOVE_IS_ENERGY.mp4",
+    "destination_filename": "love_is_energy.mp4",
     "new_url": "/assets/video/course/love_is_energy.mp4",
     "size_bytes": 12201168
   },
@@ -216,8 +231,9 @@
       21
     ],
     "match_type": "exact-stem",
-    "source_path": "/mnt/c/datasources/WTKvideos/UNBELIEVABLY_LUCKY.mp4",
-    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/unbelievably_lucky.mp4",
+    "source_collection": "WTKvideos",
+    "source_filename": "UNBELIEVABLY_LUCKY.mp4",
+    "destination_filename": "unbelievably_lucky.mp4",
     "new_url": "/assets/video/course/unbelievably_lucky.mp4",
     "size_bytes": 3789569
   },
@@ -229,8 +245,9 @@
       17
     ],
     "match_type": "exact-stem",
-    "source_path": "/mnt/c/datasources/WTKvideos/WHAT_MATTERS_W_MITCHELL.mp4",
-    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/what_matters_w_mitchell.mp4",
+    "source_collection": "WTKvideos",
+    "source_filename": "WHAT_MATTERS_W_MITCHELL.mp4",
+    "destination_filename": "what_matters_w_mitchell.mp4",
     "new_url": "/assets/video/course/what_matters_w_mitchell.mp4",
     "size_bytes": 57447547
   },
@@ -243,8 +260,9 @@
       21
     ],
     "match_type": "exact-stem",
-    "source_path": "/mnt/c/datasources/WTKvideos/g/MEN-WOMEN-BRAINS.mp4",
-    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/men-women-brains.mp4",
+    "source_collection": "WTKvideos",
+    "source_filename": "MEN-WOMEN-BRAINS.mp4",
+    "destination_filename": "men-women-brains.mp4",
     "new_url": "/assets/video/course/men-women-brains.mp4",
     "size_bytes": 37803473
   },
@@ -257,8 +275,9 @@
       21
     ],
     "match_type": "exact-stem",
-    "source_path": "/mnt/c/datasources/WTKvideos/SUSAN_BOYLE_I_HAVE_A_DREAM.mp4",
-    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/susan_boyle_i_have_a_dream.mp4",
+    "source_collection": "WTKvideos",
+    "source_filename": "SUSAN_BOYLE_I_HAVE_A_DREAM.mp4",
+    "destination_filename": "susan_boyle_i_have_a_dream.mp4",
     "new_url": "/assets/video/course/susan_boyle_i_have_a_dream.mp4",
     "size_bytes": 28101909
   },
@@ -270,8 +289,9 @@
       20
     ],
     "match_type": "normalized-stem",
-    "source_path": "/mnt/c/datasources/WTKvideos/3D-HOLOGRAM.mp4",
-    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/3d-hologram.mp4",
+    "source_collection": "WTKvideos",
+    "source_filename": "3D-HOLOGRAM.mp4",
+    "destination_filename": "3d-hologram.mp4",
     "new_url": "/assets/video/course/3d-hologram.mp4",
     "size_bytes": 3707627
   },
@@ -284,8 +304,9 @@
       21
     ],
     "match_type": "exact-stem",
-    "source_path": "/mnt/c/datasources/WTKvideos/MILGRAM_EXPERIMENT.mp4",
-    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/milgram_experiment.mp4",
+    "source_collection": "WTKvideos",
+    "source_filename": "MILGRAM_EXPERIMENT.mp4",
+    "destination_filename": "milgram_experiment.mp4",
     "new_url": "/assets/video/course/milgram_experiment.mp4",
     "size_bytes": 22855928
   },
@@ -298,8 +319,9 @@
       21
     ],
     "match_type": "exact-stem",
-    "source_path": "/mnt/c/datasources/WTKvideos/STANFORD_PRISON_EXPERIMENT.mp4",
-    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/stanford_prison_experiment.mp4",
+    "source_collection": "WTKvideos",
+    "source_filename": "STANFORD_PRISON_EXPERIMENT.mp4",
+    "destination_filename": "stanford_prison_experiment.mp4",
     "new_url": "/assets/video/course/stanford_prison_experiment.mp4",
     "size_bytes": 113639576
   }

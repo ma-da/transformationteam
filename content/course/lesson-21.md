@@ -231,7 +231,7 @@ Principles of Transformation
 
 "A Good Day" by Brother David Steindl-Rast of [www.gratefulness.org](http://www.gratefulness.org)
 
-[https://www.personalgrowthcourses.net/video/gratefulness...](https://www.personalgrowthcourses.net/video/gratefulness_david_steindl_rast) - 5 minutes
+[https://www.personalgrowthcourses.net/video/gratefulness...](/assets/video/course/gratefulness_david_steindl-rast.mp4) - 5 minutes
 
 **Lesson 12 - Infinite Energy**
 
@@ -251,7 +251,7 @@ Energy Inventions in the News: Multiple media articles revealing energy cover-up
 
 Funny chase scene in wilds of Africa
 
-<https://www.personalgrowthcourses.net/video/cheetah_antelope> - 20 seconds
+</assets/video/course/cheetah_antelope.mp4> - 20 seconds
 
 **Lesson 13 - Our Core Life Challenges**
 
@@ -271,7 +271,7 @@ Transform Fear Through Core Belief Work
 
 Life = Risk. Video showing famous people who overcame major obstacles
 
-<https://www.personalgrowthcourses.net/video/life_risk> - 1 minute
+</assets/video/course/life_risk.mp4> - 1 minute
 
 We Should Never Have Survived: Humorous piece on the dangers of living
 
@@ -279,7 +279,7 @@ We Should Never Have Survived: Humorous piece on the dangers of living
 
 Softball miracle video
 
-<https://www.personalgrowthcourses.net/video/softball_miracle> - 6 minutes
+</assets/video/course/softball_miracle.mp4> - 6 minutes
 
 **Lesson 14 - Control of the Mind**
 
@@ -299,7 +299,7 @@ Secrets of Mind Control: Two-page summary based on government documents
 
 Transformation in the king of beasts (lion hug)
 
-<https://www.personalgrowthcourses.net/video/lion_hug> - 1 minute
+</assets/video/course/lion_hug.mp4> - 1 minute
 
 Song: We Are One
 
@@ -319,7 +319,7 @@ Comparison of old and new paradigm perspectives
 
 Validation: Fun, inspiring video on the beauty in us all
 
-<https://www.personalgrowthcourses.net/video/validation> - 16 minutes
+</assets/video/course/validation.mp4> - 16 minutes
 
 Shifting Paradigms of Consciousness by WingMakers
 
@@ -335,7 +335,7 @@ Video: *Feather to Fire, Ashes to Snow*
 
 Video: Intentional Chocolate
 
-<https://www.personalgrowthcourses.net/video/intentional_chocolate> - 1 minute
+</assets/video/course/intentional_chocolate.mp4> - 1 minute
 
 Ideas on How to Find Your Life Purpose and Life Intentions
 
@@ -343,7 +343,7 @@ Ideas on How to Find Your Life Purpose and Life Intentions
 
 Video: *Unbelievably Lucky* - Artist paints with head
 
-<https://www.personalgrowthcourses.net/video/unbelievably_lucky> - 1 minute
+</assets/video/course/unbelievably_lucky.mp4> - 1 minute
 
 Best Big Picture Summaries on WantToKnow.info
 
@@ -351,11 +351,11 @@ Best Big Picture Summaries on WantToKnow.info
 
 Video: Evolution by Creature Comforts
 
-<https://www.personalgrowthcourses.net/video/evolution_creature_comforts> - 9 min
+</assets/video/course/evolution_creature_comforts.mp4> - 9 min
 
 Video: Love is Energy
 
-<https://www.personalgrowthcourses.net/video/love_is_energy> - 3 minutes
+</assets/video/course/love_is_energy.mp4> - 3 minutes
 
 **Lesson 17 - Inspiration and Transformation: Keep It Simple**
 
@@ -444,7 +444,7 @@ On Intimacy by Gabriel Cousens
 
 Susan Boyle sings her way to fame
 
-[https://www.personalgrowthcourses.net/video/susan\_boyle...](https://www.personalgrowthcourses.net/video/susan_boyle_i_have_a_dream) - 7 minutes
+[https://www.personalgrowthcourses.net/video/susan\_boyle...](/assets/video/course/susan_boyle_i_have_a_dream.mp4) - 7 minutes
 
 The Thousand Archetypes of Love by Stephanie Derosier
 
@@ -452,7 +452,7 @@ The Thousand Archetypes of Love by Stephanie Derosier
 
 Men vs. women's brains video
 
-<https://www.personalgrowthcourses.net/video/g/men-women-brains> - 13 minutes
+</assets/video/course/men-women-brains.mp4> - 13 minutes
 
 Fun with lip balm
 
@@ -468,11 +468,11 @@ The Difference Between Men & Women by Dave Barry
 
 The Milgram Experiment - 6 minutes
 
-<https://www.personalgrowthcourses.net/video/milgram_experiment>
+</assets/video/course/milgram_experiment.mp4>
 
 The Stanford Prison Experiment - 30 minutes
 
-<https://www.personalgrowthcourses.net/video/stanford_prison_experiment>
+</assets/video/course/stanford_prison_experiment.mp4>
 
 Way of the Wise (Tao Te Ching), chapters one and two
 

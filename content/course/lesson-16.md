@@ -60,7 +60,7 @@ Now that you've further explored the shift in paradigms of which we are all a pa
 
 Life purpose is a single statement of deep meaning about a person's reason for being. Life intentions provide direction for moving through specific challenges which can arise in any moment. Life purpose can be extremely useful for keeping ourselves on track in life from the larger perspective, while life intentions can give us direction at key choice points with which we are presented. For a fun, one-minute video demonstrating the power of intentions, click below:
 
-[**https://www.personalgrowthcourses.net/video/intentional\_chocolate**](https://www.personalgrowthcourses.net/video/intentional_chocolate)
+[**https://www.personalgrowthcourses.net/video/intentional\_chocolate**](/assets/video/course/intentional_chocolate.mp4)
 
 We invite all transformation team members to consider getting clear on their intentions and purpose in life. The reason for this is that those who are not clear can end up being swayed by outside influences. When people are not clear about what they want in life, they often follow the path of least resistance, which sometimes means following unconscious desires or other people's suggestions which may or may not be in their best interest.
 
@@ -80,7 +80,7 @@ For those who join the community portal of our website, you will have a personal
 
 To conclude this part of the lesson, please watch the moving one-minute video clip below of an unbelievably lucky man who found his life purpose and is using it to powerfully inspire both himself and others.
 
-[www.personalgrowthcourses.net/video/unbelievably\_lucky](https://www.personalgrowthcourses.net/video/unbelievably_lucky)
+[www.personalgrowthcourses.net/video/unbelievably\_lucky](/assets/video/course/unbelievably_lucky.mp4)
 
 ***Sacred Cows***
 
@@ -118,9 +118,9 @@ You have already read two of these essays in previous lessons. For those who are
 
 And to end this lesson on a fun note, enjoy the two engaging videos below. The first nine-minute video takes a humorous look at the big picture question of where we originally came from. The second is an inspiring three-minute video titled "Love is Energy." May the love and joy here energize your life purpose and intentions.
 
-[**www.personalgrowthcourses.net/video/evolution\_creature\_comforts**](https://www.personalgrowthcourses.net/video/evolution_creature_comforts)
+[**www.personalgrowthcourses.net/video/evolution\_creature\_comforts**](/assets/video/course/evolution_creature_comforts.mp4)
 
-[**www.personalgrowthcourses.net/video/love\_is\_energy**](https://www.personalgrowthcourses.net/video/love_is_energy)
+[**www.personalgrowthcourses.net/video/love\_is\_energy**](/assets/video/course/love_is_energy.mp4)
 
 *Those who say it cannot be done should not interrupt the person doing it.*
 Chinese Proverb

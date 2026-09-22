@@ -89,7 +89,7 @@ Nonviolent communication gives us another simple, yet powerful tool to be an eff
 - **Every person in the world has a heart.**
 - **Every heart has a place within that wants only to love and be loved.**
 
-**[W. Mitchell video](https://www.personalgrowthcourses.net/video/what_matters_w_mitchell)**
+**[W. Mitchell video](/assets/video/course/what_matters_w_mitchell.mp4)**
 
 - It's not what happens to you that matters, it's what you do about it.
 

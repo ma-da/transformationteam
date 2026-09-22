@@ -67,7 +67,7 @@ Most of you have heard of or read the transformational book [*Course in Miracles
 
 Now for a fun, inspiring story which reminds us of the importance of looking inside to find the beauty, and then validating ourselves and those around us for who we are, watch the entertaining 16-minute video below.
 
-<https://www.personalgrowthcourses.net/video/validation> - Validation
+</assets/video/course/validation.mp4> - Validation
 
 Now that you've been validated, the essay below describes the powerful shift of paradigms occurring in our world from a deep mystical perspective. As this material is very deep and difficult for many to digest, we recommend reading through these intriguing words slowly to gain whatever wisdom might be available for you in the concepts presented. **As with all of the transformation course materials, we recommend you open to spiritual guidance as you explore these mysteries.**
 

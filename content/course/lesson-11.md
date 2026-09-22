@@ -126,7 +126,7 @@ Now for a concise two-page essay which presents three simple principles of trans
 
 For a wonderful video which inspires us to open more fully to the third principle of transformation – gratitude – please watch the refreshing five-minute clip below, "A Good Day" with Brother David Steindl-Rast of [www.gratefulness.org](http://www.gratefulness.org).
 
-[**https://www.personalgrowthcourses.net/video/gratefulness...**](https://www.personalgrowthcourses.net/video/gratefulness_david_steindl_rast)
+[**https://www.personalgrowthcourses.net/video/gratefulness...**](/assets/video/course/gratefulness_david_steindl-rast.mp4)
 
 ![Transformational Beam of Light](https://www.personalgrowthcourses.net/images/southwestcanyonbeam.jpg)
 
@@ -187,11 +187,11 @@ Sacred Cows ©  [Spyder Webb](https://universityofmetaphysics.com/dr-spyder-webb
 
 Perception experiment video counting balls
 
-<https://www.personalgrowthcourses.net/video/perceptual_experiment> - 2 minutes
+</assets/video/course/perceptual_experiment.mp4> - 2 minutes
 
 Elephant paints self portrait
 
-<https://www.personalgrowthcourses.net/video/elephant_artist> - 8 minutes
+</assets/video/course/elephant_artist.mp4> - 8 minutes
 
 **Lesson 1 - The Infinite Potential Within Every One of Us**
 
@@ -258,7 +258,7 @@ Inspiring ideas on transforming from victim to creator
 
 W. Mitchell video
 
-[https://www.personalgrowthcourses.net/video/what\_matters\_w\_mitch...](https://www.personalgrowthcourses.net/video/what_matters_w_mitchell_pgc) - 15 minutes
+[https://www.personalgrowthcourses.net/video/what\_matters\_w\_mitch...](/assets/video/course/what_matters_w_mitchell.mp4_pgc) - 15 minutes
 
 - **It's not what happens to you that matters,** **i****t's what you do about it**
 
@@ -356,11 +356,11 @@ UFO summary: Military and government witnesses testify on major cover-up
 
 BBC video commercial on power of the Internet
 
-<https://www.personalgrowthcourses.net/video/power_of_the_internet> - 1 minute
+</assets/video/course/power_of_the_internet.mp4> - 1 minute
 
 Extraordinary animal mothers video
 
-<https://www.personalgrowthcourses.net/video/mothers_extraordinary> - 3 minutes
+</assets/video/course/mothers_extraordinary.mp4> - 3 minutes
 
 **Lesson 7 - Every One of Us Makes a Difference**
 
@@ -384,7 +384,7 @@ The Last Cab Ride: Cab driver takes elderly woman on her last journey
 
 *The Secret*: Exploring the law of attraction
 
-<https://www.personalgrowthcourses.net/video/the_secret> - 20 minutes
+</assets/video/course/the_secret.mp4> - 20 minutes
 
 Two inspiring stories on opening to higher guidance or an inner calling
 
@@ -428,7 +428,7 @@ Mellen-Thomas Benedict's awesome near-death experience
 
 A stroke transforms the life of Jill Bolte Taylor
 
-<https://www.personalgrowthcourses.net/video/stroke_jill_bolte_taylor> - 18 minutes
+</assets/video/course/stroke_jill_bolte_taylor.mp4> - 18 minutes
 
 Dannion Brinkley's inspiring near-death story
 
@@ -508,7 +508,7 @@ Principles of Transformation
 
 "A Good Day" With Brother David Steindl-Rast
 
-[https://www.personalgrowthcourses.net/video/gratefulness...](https://www.personalgrowthcourses.net/video/gratefulness_david_steindl_rast) - 5 minutes
+[https://www.personalgrowthcourses.net/video/gratefulness...](/assets/video/course/gratefulness_david_steindl-rast.mp4) - 5 minutes
 
 ---
 

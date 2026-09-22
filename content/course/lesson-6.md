@@ -117,9 +117,9 @@ How grand that the universe is populated by a rich variety of beings who exist i
 
 To close this lesson in a fun way, watch the two short, excellent video clips below. The first is an inspiring one-minute BBC commercial on the transformative power of the Internet with intriguing other-worldy overtones. The second is an amazing three-minute CBS News clip on a very unusual form of inter-species communication and connection. May we all open to breaking out of old ways of thinking and being, as these creatures do, when it clearly supports all involved.
 
-[**https://www.personalgrowthcourses.net/video/power\_of\_the\_internet**](https://www.personalgrowthcourses.net/video/power_of_the_internet)
+[**https://www.personalgrowthcourses.net/video/power\_of\_the\_internet**](/assets/video/course/power_of_the_internet.mp4)
 
-[**https://www.personalgrowthcourses.net/video/mothers\_extraordinary**](https://www.personalgrowthcourses.net/video/mothers_extraordinary)
+[**https://www.personalgrowthcourses.net/video/mothers\_extraordinary**](/assets/video/course/mothers_extraordinary.mp4)
 
 > *It is a good thing to look down at the tide pools, then up to the stars, then back to the tide pools again.*
 >    ~   John Steinbeck

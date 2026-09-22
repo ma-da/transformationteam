@@ -219,7 +219,7 @@ This is a golden opportunity for us to breathe sacred love even with those who m
 
 To leave you on an uplifting note after these intense materials, we invite you to watch the short, inspiring video at the first link below, and then listen to the beautiful song "We Are One" composed by a man with very similar ideals to the Transformation Team.
 
-**[http://www.personalgrow...](https://www.personalgrowthcourses.net/video/lion_hug) - Transformation in the king of beasts**
+**[http://www.personalgrow...](/assets/video/course/lion_hug.mp4) - Transformation in the king of beasts**
 
 **[https://www.personalgrowthcourses.net/audio/we-are-one...](https://www.personalgrowthcourses.net/audio/we-are-one-kevin-reid.php) - We Are One**
 

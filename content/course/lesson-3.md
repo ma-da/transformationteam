@@ -64,7 +64,7 @@ As a first step to exploring this key topic, the below two-page article discusse
 
 Next, W Mitchell is a man who speaks from rich experience. The below inspiring 15-minute video reminds us that it's not what happens to us that matters, but rather what we do about it. In spite of tremendous adversity in his life, W Mitchell chooses again and again not to be a victim, but rather to be a powerful creative force in life, and an inspiration to all who know him.
 
-**[www.personalgrowthcourses.net/video/what\_matters\_w\_mitchell\_pgc](https://www.personalgrowthcourses.net/video/what_matters_w_mitchell_pgc)**
+**[www.personalgrowthcourses.net/video/what\_matters\_w\_mitchell\_pgc](/assets/video/course/what_matters_w_mitchell.mp4_pgc)**
 
 **It's not what happens to you that matters, it's what you do with it!** After watching this inspiring video clip, think of all the ways you may have blamed yourself or others for shortcomings in yourself or your life.
 

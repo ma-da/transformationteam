@@ -118,7 +118,7 @@ Remember that all members of the power elite have a heart. All of them have a pl
 
 For a last fun, very short video clip showing tremendous amounts of energy in a very unusual chase scene out in the wilds of Africa, watch below.
 
-[**https://www.personalgrowthcourses.net/video/cheetah\_antelope**](https://www.personalgrowthcourses.net/video/cheetah_antelope)
+[**https://www.personalgrowthcourses.net/video/cheetah\_antelope**](/assets/video/course/cheetah_antelope.mp4)
 
 Your sacred love flows into me. My sacred love flows out to you. **By tapping into the infinite energy available in the heart and soul of all beings, we are transforming our lives and world.**
 

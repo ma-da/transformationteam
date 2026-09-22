@@ -104,10 +104,10 @@ Two major experiments demonstrate how polarities and unwillingness to question a
 
 The second, the famous [Stanford Prison Experiment](http://en.wikipedia.org/wiki/Stanford_prison_experiment), arbitrarily divided normal middle-class young men into the polarized roles of prison guards and prisoners. The results of this disturbing experiment revealed that the young men put into the role of prison guards within days can become aggressive and even violent towards those assigned to play the role of prisoners. Please watch the below documentaries on both of these revealing experiments.
 
-**[www.personalgrowthcourses.net/video/milgram\_experiment](https://www.personalgrowthcourses.net/video/milgram_experiment)
+**[www.personalgrowthcourses.net/video/milgram\_experiment](/assets/video/course/milgram_experiment.mp4)
 Milgram Experiment (ABC News - 6 min)**
 
-**[www.personalgrowthcourses.net/video/stanford\_prison\_experiment](https://www.personalgrowthcourses.net/video/stanford_prison_experiment)
+**[www.personalgrowthcourses.net/video/stanford\_prison\_experiment](/assets/video/course/stanford_prison_experiment.mp4)
 Stanford Prison Experiment (BBC - 30 min)**
 
 These experiments show clearly that we all have both creative and destructive capabilities within us. As stated in Solzhenitsyn's quote at the top of this page, "The line dividing good and evil cuts through the heart of every human being." When we don't live with clear intentions, many people can be pulled down a destructive path by circumstances, pressure from authorities, and even government propaganda.
@@ -186,7 +186,7 @@ Where the old paradigm is often caught up in the drama of duality and polarizati
 
 To better understand the meaning of the term holographic, consider holography, which is a specialized branch of photography. Using a sophisticated process with lasers, an image can be recorded on holographic film. When lasers are then shined through that film at the precise angle used in making the film, an intriguing three-dimensional image appears to the viewer.
 
-Note that this is quite different from the process used with holograms on credit cards, which are visible to the eye using natural light. Under natural light, the type of holographic film discussed here does not present any coherent picture. Only when lasers are directed through the film at the correct angle does the three-dimensional image appear. For an example, [click here](https://www.personalgrowthcourses.net/video/3d_hologram).
+Note that this is quite different from the process used with holograms on credit cards, which are visible to the eye using natural light. Under natural light, the type of holographic film discussed here does not present any coherent picture. Only when lasers are directed through the film at the correct angle does the three-dimensional image appear. For an example, [click here](/assets/video/course/3d-hologram.mp4).
 
 **The amazing thing about the holographic process is that the whole image is contained in each part of the film.**
 

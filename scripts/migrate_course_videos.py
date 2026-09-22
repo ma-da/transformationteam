@@ -519,12 +519,57 @@ def main():
 
 
     # ========================================================
-    # WRITE MIGRATION MAP
+    # WRITE PORTABLE MIGRATION MAP
     # ========================================================
+
+    portable_records = []
+
+    for record in migration_records:
+
+        source = Path(
+            record["source_path"]
+        )
+
+        destination = Path(
+            record["destination_path"]
+        )
+
+        portable_records.append({
+            "resource_id":
+                record["resource_id"],
+
+            "label":
+                record["label"],
+
+            "legacy_url":
+                record["legacy_url"],
+
+            "lessons":
+                record["lessons"],
+
+            "match_type":
+                record["match_type"],
+
+            "source_collection":
+                "WTKvideos",
+
+            "source_filename":
+                source.name,
+
+            "destination_filename":
+                destination.name,
+
+            "new_url":
+                record["new_url"],
+
+            "size_bytes":
+                record["size_bytes"],
+        })
+
 
     MAPPING_JSON.write_text(
         json.dumps(
-            migration_records,
+            portable_records,
             indent=2,
             ensure_ascii=False,
         )

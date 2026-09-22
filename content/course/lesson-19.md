@@ -107,7 +107,7 @@ And for a couple short, inspiring essays on fostering spiritual intimacy in rela
 
 Remember that in matters of sacred sexuality, the energy or essence of the people involved is more important than the physical bodies they inhabit. The seven-minute video below beautifully demonstrates this:
 
-[**www.personalgrowthcourses.net/video/susan\_boyle\_i\_have\_a\_dream**](https://www.personalgrowthcourses.net/video/susan_boyle_i_have_a_dream)
+[**www.personalgrowthcourses.net/video/susan\_boyle\_i\_have\_a\_dream**](/assets/video/course/susan_boyle_i_have_a_dream.mp4)
 
 ***Sacred Cows***
 
@@ -143,7 +143,7 @@ The below moving essay is a powerful example of the quality material now being p
 
 And thankfully, a growing number of people are talking about the differences between men and women in a constructive way that can help us to all get along better. Mark Gungor is one shining example. Watch his 14-minute video at the link below on the differences between the brains of men and women. Mark will not only have you smiling and laughing, he'll have you seriously considering how we misunderstand each other and how we can change that.
 
-**<https://www.personalgrowthcourses.net/video/g/men-women-brains>**
+**</assets/video/course/men-women-brains.mp4>**
 
 One of the purposes of our team is to really challenge each other to be all that we can be. We want to invite each other to explore the places where each of us is not yet in alignment personally with our commitment to the new paradigm. **Money and sex are two forces which are known to most easily pull people out of their rational mind and off of their spiritual path. We invite you to develop clear intentions around both money and sexuality in your life.**
 

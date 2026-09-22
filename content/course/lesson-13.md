@@ -69,7 +69,7 @@ In her process of transformation, the author was gradually able to recognize the
 
 When we learn to dance with the light and the darkness from a place of love, miracles abound. Now for a powerful one-minute video showing what happened when certain individuals transformed major shadows in their lives, watch the inspiring video below.
 
-[**https://www.personalgrowthcourses.net/video/life\_risk**](https://www.personalgrowthcourses.net/video/life_risk)
+[**https://www.personalgrowthcourses.net/video/life\_risk**](/assets/video/course/life_risk.mp4)
 
 ***Sacred Cows***
 
@@ -113,7 +113,7 @@ And just so we don't get too serious about all of this, we'd like to end this le
 
 The inspiring six-minute video below shows some softball players who, when confronted with a major challenge, came up with a very unusual solution. Enjoy!
 
-[**https://www.personalgrowthcourses.net/video/softball\_miracle**](https://www.personalgrowthcourses.net/video/softball_miracle)
+[**https://www.personalgrowthcourses.net/video/softball\_miracle**](/assets/video/course/softball_miracle.mp4)
 
 *The more I face my fears, the more fearless I become.*   ~  Anonymous
 
