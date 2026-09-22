@@ -1,0 +1,306 @@
+[
+  {
+    "resource_id": "resource-0111",
+    "label": "https://www.personalgrowthcourses.net/video/mothers_extraordinary",
+    "legacy_url": "https://www.personalgrowthcourses.net/video/mothers_extraordinary",
+    "lessons": [
+      6,
+      11
+    ],
+    "match_type": "exact-stem",
+    "source_path": "/mnt/c/datasources/WTKvideos/MOTHERS_EXTRAORDINARY.mp4",
+    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/mothers_extraordinary.mp4",
+    "new_url": "/assets/video/course/mothers_extraordinary.mp4",
+    "size_bytes": 10395437
+  },
+  {
+    "resource_id": "resource-0112",
+    "label": "https://www.personalgrowthcourses.net/video/power_of_the_internet",
+    "legacy_url": "https://www.personalgrowthcourses.net/video/power_of_the_internet",
+    "lessons": [
+      6,
+      11
+    ],
+    "match_type": "exact-stem",
+    "source_path": "/mnt/c/datasources/WTKvideos/POWER_OF_THE_INTERNET.mp4",
+    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/power_of_the_internet.mp4",
+    "new_url": "/assets/video/course/power_of_the_internet.mp4",
+    "size_bytes": 3690871
+  },
+  {
+    "resource_id": "resource-0142",
+    "label": "https://www.personalgrowthcourses.net/video/the_secret",
+    "legacy_url": "https://www.personalgrowthcourses.net/video/the_secret",
+    "lessons": [
+      7,
+      11
+    ],
+    "match_type": "exact-stem",
+    "source_path": "/mnt/c/datasources/WTKvideos/THE_SECRET.mp4",
+    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/the_secret.mp4",
+    "new_url": "/assets/video/course/the_secret.mp4",
+    "size_bytes": 79677028
+  },
+  {
+    "resource_id": "resource-0192",
+    "label": "https://www.personalgrowthcourses.net/video/stroke_jill_bolte_taylor",
+    "legacy_url": "https://www.personalgrowthcourses.net/video/stroke_jill_bolte_taylor",
+    "lessons": [
+      9,
+      11
+    ],
+    "match_type": "exact-stem",
+    "source_path": "/mnt/c/datasources/WTKvideos/STROKE_JILL_BOLTE_TAYLOR.mp4",
+    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/stroke_jill_bolte_taylor.mp4",
+    "new_url": "/assets/video/course/stroke_jill_bolte_taylor.mp4",
+    "size_bytes": 73558524
+  },
+  {
+    "resource_id": "resource-0232",
+    "label": "https://www.personalgrowthcourses.net/video/elephant_artist",
+    "legacy_url": "https://www.personalgrowthcourses.net/video/elephant_artist",
+    "lessons": [
+      11
+    ],
+    "match_type": "exact-stem",
+    "source_path": "/mnt/c/datasources/WTKvideos/ELEPHANT_ARTIST.mp4",
+    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/elephant_artist.mp4",
+    "new_url": "/assets/video/course/elephant_artist.mp4",
+    "size_bytes": 63869408
+  },
+  {
+    "resource_id": "resource-0233",
+    "label": "https://www.personalgrowthcourses.net/video/gratefulness...",
+    "legacy_url": "https://www.personalgrowthcourses.net/video/gratefulness_david_steindl_rast",
+    "lessons": [
+      11,
+      21
+    ],
+    "match_type": "normalized-stem",
+    "source_path": "/mnt/c/datasources/WTKvideos/GRATEFULNESS_DAVID_STEINDL-RAST.mp4",
+    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/gratefulness_david_steindl-rast.mp4",
+    "new_url": "/assets/video/course/gratefulness_david_steindl-rast.mp4",
+    "size_bytes": 20710839
+  },
+  {
+    "resource_id": "resource-0234",
+    "label": "https://www.personalgrowthcourses.net/video/perceptual_experiment",
+    "legacy_url": "https://www.personalgrowthcourses.net/video/perceptual_experiment",
+    "lessons": [
+      11
+    ],
+    "match_type": "exact-stem",
+    "source_path": "/mnt/c/datasources/WTKvideos/PERCEPTUAL_EXPERIMENT.mp4",
+    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/perceptual_experiment.mp4",
+    "new_url": "/assets/video/course/perceptual_experiment.mp4",
+    "size_bytes": 10690472
+  },
+  {
+    "resource_id": "resource-0250",
+    "label": "https://www.personalgrowthcourses.net/video/cheetah_antelope",
+    "legacy_url": "https://www.personalgrowthcourses.net/video/cheetah_antelope",
+    "lessons": [
+      12,
+      21
+    ],
+    "match_type": "exact-stem",
+    "source_path": "/mnt/c/datasources/WTKvideos/CHEETAH_ANTELOPE.mp4",
+    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/cheetah_antelope.mp4",
+    "new_url": "/assets/video/course/cheetah_antelope.mp4",
+    "size_bytes": 1308336
+  },
+  {
+    "resource_id": "resource-0276",
+    "label": "https://www.personalgrowthcourses.net/video/life_risk",
+    "legacy_url": "https://www.personalgrowthcourses.net/video/life_risk",
+    "lessons": [
+      13,
+      21
+    ],
+    "match_type": "exact-stem",
+    "source_path": "/mnt/c/datasources/WTKvideos/LIFE_RISK.mp4",
+    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/life_risk.mp4",
+    "new_url": "/assets/video/course/life_risk.mp4",
+    "size_bytes": 2611855
+  },
+  {
+    "resource_id": "resource-0277",
+    "label": "https://www.personalgrowthcourses.net/video/softball_miracle",
+    "legacy_url": "https://www.personalgrowthcourses.net/video/softball_miracle",
+    "lessons": [
+      13,
+      21
+    ],
+    "match_type": "exact-stem",
+    "source_path": "/mnt/c/datasources/WTKvideos/SOFTBALL_MIRACLE.mp4",
+    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/softball_miracle.mp4",
+    "new_url": "/assets/video/course/softball_miracle.mp4",
+    "size_bytes": 23493263
+  },
+  {
+    "resource_id": "resource-0299",
+    "label": "https://www.personalgrowthcourses.net/video/lion_hug",
+    "legacy_url": "https://www.personalgrowthcourses.net/video/lion_hug",
+    "lessons": [
+      14,
+      21
+    ],
+    "match_type": "exact-stem",
+    "source_path": "/mnt/c/datasources/WTKvideos/LION_HUG.mp4",
+    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/lion_hug.mp4",
+    "new_url": "/assets/video/course/lion_hug.mp4",
+    "size_bytes": 2560821
+  },
+  {
+    "resource_id": "resource-0335",
+    "label": "https://www.personalgrowthcourses.net/video/validation",
+    "legacy_url": "https://www.personalgrowthcourses.net/video/validation",
+    "lessons": [
+      15,
+      21
+    ],
+    "match_type": "exact-stem",
+    "source_path": "/mnt/c/datasources/WTKvideos/VALIDATION.mp4",
+    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/validation.mp4",
+    "new_url": "/assets/video/course/validation.mp4",
+    "size_bytes": 64197516
+  },
+  {
+    "resource_id": "resource-0351",
+    "label": "https://www.personalgrowthcourses.net/video/evolution_creature_comforts",
+    "legacy_url": "https://www.personalgrowthcourses.net/video/evolution_creature_comforts",
+    "lessons": [
+      16,
+      21
+    ],
+    "match_type": "exact-stem",
+    "source_path": "/mnt/c/datasources/WTKvideos/EVOLUTION_CREATURE_COMFORTS.mp4",
+    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/evolution_creature_comforts.mp4",
+    "new_url": "/assets/video/course/evolution_creature_comforts.mp4",
+    "size_bytes": 29271222
+  },
+  {
+    "resource_id": "resource-0352",
+    "label": "https://www.personalgrowthcourses.net/video/intentional_chocolate",
+    "legacy_url": "https://www.personalgrowthcourses.net/video/intentional_chocolate",
+    "lessons": [
+      16,
+      21
+    ],
+    "match_type": "exact-stem",
+    "source_path": "/mnt/c/datasources/WTKvideos/INTENTIONAL_CHOCOLATE.mp4",
+    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/intentional_chocolate.mp4",
+    "new_url": "/assets/video/course/intentional_chocolate.mp4",
+    "size_bytes": 4485949
+  },
+  {
+    "resource_id": "resource-0353",
+    "label": "https://www.personalgrowthcourses.net/video/love_is_energy",
+    "legacy_url": "https://www.personalgrowthcourses.net/video/love_is_energy",
+    "lessons": [
+      16,
+      21
+    ],
+    "match_type": "exact-stem",
+    "source_path": "/mnt/c/datasources/WTKvideos/LOVE_IS_ENERGY.mp4",
+    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/love_is_energy.mp4",
+    "new_url": "/assets/video/course/love_is_energy.mp4",
+    "size_bytes": 12201168
+  },
+  {
+    "resource_id": "resource-0354",
+    "label": "https://www.personalgrowthcourses.net/video/unbelievably_lucky",
+    "legacy_url": "https://www.personalgrowthcourses.net/video/unbelievably_lucky",
+    "lessons": [
+      16,
+      21
+    ],
+    "match_type": "exact-stem",
+    "source_path": "/mnt/c/datasources/WTKvideos/UNBELIEVABLY_LUCKY.mp4",
+    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/unbelievably_lucky.mp4",
+    "new_url": "/assets/video/course/unbelievably_lucky.mp4",
+    "size_bytes": 3789569
+  },
+  {
+    "resource_id": "resource-0381",
+    "label": "W. Mitchell video",
+    "legacy_url": "https://www.personalgrowthcourses.net/video/what_matters_w_mitchell",
+    "lessons": [
+      17
+    ],
+    "match_type": "exact-stem",
+    "source_path": "/mnt/c/datasources/WTKvideos/WHAT_MATTERS_W_MITCHELL.mp4",
+    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/what_matters_w_mitchell.mp4",
+    "new_url": "/assets/video/course/what_matters_w_mitchell.mp4",
+    "size_bytes": 57447547
+  },
+  {
+    "resource_id": "resource-0424",
+    "label": "https://www.personalgrowthcourses.net/video/g/men-women-brains",
+    "legacy_url": "https://www.personalgrowthcourses.net/video/g/men-women-brains",
+    "lessons": [
+      19,
+      21
+    ],
+    "match_type": "exact-stem",
+    "source_path": "/mnt/c/datasources/WTKvideos/g/MEN-WOMEN-BRAINS.mp4",
+    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/men-women-brains.mp4",
+    "new_url": "/assets/video/course/men-women-brains.mp4",
+    "size_bytes": 37803473
+  },
+  {
+    "resource_id": "resource-0431",
+    "label": "www.personalgrowthcourses.net/video/susan_boyle_i_have_a_dream",
+    "legacy_url": "https://www.personalgrowthcourses.net/video/susan_boyle_i_have_a_dream",
+    "lessons": [
+      19,
+      21
+    ],
+    "match_type": "exact-stem",
+    "source_path": "/mnt/c/datasources/WTKvideos/SUSAN_BOYLE_I_HAVE_A_DREAM.mp4",
+    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/susan_boyle_i_have_a_dream.mp4",
+    "new_url": "/assets/video/course/susan_boyle_i_have_a_dream.mp4",
+    "size_bytes": 28101909
+  },
+  {
+    "resource_id": "resource-0434",
+    "label": "click here",
+    "legacy_url": "https://www.personalgrowthcourses.net/video/3d_hologram",
+    "lessons": [
+      20
+    ],
+    "match_type": "normalized-stem",
+    "source_path": "/mnt/c/datasources/WTKvideos/3D-HOLOGRAM.mp4",
+    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/3d-hologram.mp4",
+    "new_url": "/assets/video/course/3d-hologram.mp4",
+    "size_bytes": 3707627
+  },
+  {
+    "resource_id": "resource-0446",
+    "label": "https://www.personalgrowthcourses.net/video/milgram_experiment",
+    "legacy_url": "https://www.personalgrowthcourses.net/video/milgram_experiment",
+    "lessons": [
+      20,
+      21
+    ],
+    "match_type": "exact-stem",
+    "source_path": "/mnt/c/datasources/WTKvideos/MILGRAM_EXPERIMENT.mp4",
+    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/milgram_experiment.mp4",
+    "new_url": "/assets/video/course/milgram_experiment.mp4",
+    "size_bytes": 22855928
+  },
+  {
+    "resource_id": "resource-0447",
+    "label": "https://www.personalgrowthcourses.net/video/stanford_prison_experiment",
+    "legacy_url": "https://www.personalgrowthcourses.net/video/stanford_prison_experiment",
+    "lessons": [
+      20,
+      21
+    ],
+    "match_type": "exact-stem",
+    "source_path": "/mnt/c/datasources/WTKvideos/STANFORD_PRISON_EXPERIMENT.mp4",
+    "destination_path": "/mnt/c/datasources/transformation-team-site/src/site/assets/video/course/stanford_prison_experiment.mp4",
+    "new_url": "/assets/video/course/stanford_prison_experiment.mp4",
+    "size_bytes": 113639576
+  }
+]

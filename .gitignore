@@ -22,3 +22,6 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Large Transformation Course video assets
+/src/site/assets/video/course/*.mp4
